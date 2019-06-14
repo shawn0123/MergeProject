@@ -1,10 +1,10 @@
 var topic = [
-    "課程介紹",
-    "停課",
-    "停課",
-    "亂數&排序",
-    "停課",
-    "下一次上課"
+    "Last Man Standing Tournament",
+    "Calamity Cup",
+    "Osu Taiwan Standard Tournament 4",
+    "Osu! Roll Tournament 2",
+    "Luminuous Tournament 2019",
+    "Last Minute Tournament"
 ];
 
 var startDate = new Date();

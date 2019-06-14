@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+}
+
+.contain{
+    text-align: center;
+}
+
+.info{
+    font-family: Microsoft JhengHei;
+    padding: 30px;
+}
+
+.line{
+    font-weight: bold;
+}

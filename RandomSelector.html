@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
 
-    <title>Carousel Template for Bootstrap</title>
+    <title>HTML Practice</title>
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
@@ -20,7 +20,7 @@
 
     <header>
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="index.html">:pogger:</a>
+        <a class="navbar-brand" href="index.html">Project</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -36,7 +36,7 @@
               <a class="nav-link" href="#">RandomSelector<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="ClubCourse.html">ClubCourse</a>
+              <a class="nav-link" href="ClubCourse.html">Tourney</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="MindTest.html">MindTest</a>
@@ -59,14 +59,40 @@
     <main role="main">
       <div class="container marketing">
         <hr class="featurette-divider">
-          <h1>?</h1>
-          <input type="button" value="今天晚上要吃什麼?">
+          <h1 id="title">?</h1>
+          <input type="button" value="接下來要打誰的圖?">
           <ul>
-              <li class="random">拉麵</li>
-              <li class="random">滷肉飯</li>
-              <li class="random">水餃</li>
+              <li class="random">Camellia</li>
+              <li class="random">USAO</li>
+              <li class="random">lapix</li>
           </ul>
-          <img>
+          <br/>
+          <div id="map">
+              <div class="screen">
+                  <a id="pic-href" target="_blank"><img id="pic"></a>
+              </div>
+              <div class="info">
+                  <p id="header"></p>
+                  <div class="detail">
+                      <p id="mapper"></p>
+                      <p id="cs"></p>
+                      <p id="hp"></p>
+                      
+                  </div>
+                  <div class="detail">
+                      <p id="bpm"></p>
+                      <p id="ar"></p>
+                      <p id="od"></p>
+                  </div>
+                  <div class="detail">
+                      <p id="diff"></p>
+                      <p id="length"></p>
+                      <p id="fav"></p>
+                  </div>
+              </div>
+          </div>
+          <br/>
+          <u><a href="https://github.com/ppy/osu-api/wiki" target="_blank">osu! api</a></u>
 
         <hr class="featurette-divider">
 
@@ -85,7 +111,7 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
     <script src="assets/js/vendor/popper.min.js"></script>
     <script src="dist/js/bootstrap.min.js"></script>

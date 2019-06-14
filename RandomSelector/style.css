@@ -5,3 +5,34 @@ body{
 li{
     text-align: left;
 }
+
+#map{
+    width: 860px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.screen, .info{
+    padding: 15px;
+}
+
+.info{
+    text-align: left;
+    width: 600px;
+    height: 180px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.detail{
+    text-align: left;
+    padding: 10px;
+    width: 190px;
+    font-size: 15px;
+    font-weight: 400;
+    justify-content: space-between;
+    float: left;
+}

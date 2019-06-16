@@ -1,11 +1,11 @@
 var playList = [
-    "L229QDxDakU",
-    "kfXdP7nZIiE",
-    "x3bDhtuC5yk"
+    "6AvWVGFUA9k",
+    "VsYLIg67pYo",
+    "lJudNT9-Xk8"
 ];
 
 var playTime = [
-    [73,80],
-    [1,5],
-    [116,120]
+    [186,206],
+    [160,200],
+    [170,200]
 ];
